@@ -7,13 +7,83 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3.0.1/dist/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="config.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
 
+
 </head>
 <body>
+
+<div class="container">
+	<div class="row">
+		<h1 class="text-center">Movie Filter</h1>
+	</div>
+
+	<div class="row nowplaying-row">
+		
+		<div class="col-xs-2 filter-category-header pull-left">
+		<h4>Now playing</h4>
+		</div>
+		<div class="col-xs-9 container button-group filter-button-group pull-left">
+			<button class="btn">Any</button>
+			<button class="btn">In Theaters</button>
+			<button class="btn">Not In Theaters</button>
+			
+		</div>
+	</div>
+
+	<div class="row genre-row">
+		
+		<div class="col-xs-2 filter-category-header pull-left">
+		<h4>Genres</h4>
+		</div>
+		<div class="col-xs-9 container button-group filter-button-group pull-left">
+			<button class="btn">Any</button>
+			<button class="btn">Action</button>
+			<button class="btn">Adventure</button>
+			<button class="btn">Animation</button>
+			<button class="btn">Comedy</button>
+			<button class="btn">Crime</button>
+			<button class="btn">Documentary</button>
+			<button class="btn">Drama</button>
+			<button class="btn">Family</button>
+			<button class="btn">Fantasy</button>
+			<button class="btn">History</button>
+			<button class="btn">Horror</button>
+			<button class="btn">Music</button>
+			<button class="btn">Mystery</button>
+			<button class="btn">Romance</button>
+			<button class="btn">Science Fiction</button>
+			<button class="btn">TV Movie</button>
+			<button class="btn">Thriller</button>
+			<button class="btn">War</button>
+			<button class="btn">Western</button>
+		</div>
+	</div>
+
+	<div class="row ratings-row">
+		
+		<div class="col-xs-2 filter-category-header pull-left">
+		<h4>Ratings</h4>
+		</div>
+		<div class="col-xs-9 container button-group filter-button-group pull-left">
+			<button class="btn">Any</button>
+			<button class="btn">Above 50%</button>
+			<button class="btn">Above 70%</button>
+			<button class="btn">Above 90%</button>
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="movie-grid"></div>
+	</div>
+</div>
 
 </body>
 </html>

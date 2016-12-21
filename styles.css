@@ -1,3 +1,87 @@
 body{
-	background-color: yellow;
+	background-color: #383933;
+	color: #383933;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #DADBD9;
+	font-family: 'Oleo Script', cursive;
+	padding:  25px 0 25px 0;
+}
+
+h4{
+	color: white;
+}
+
+img{
+	max-width: 100%;
+}
+
+.filter-category-header, .filter-button-group{
+	height: 40px;
+	line-height: 40px;
+}
+
+.genre-row{
+	height: 80px;
+}
+
+.genre-row .button-group button{
+	background-color: #A1CDA8;
+}
+
+.nowplaying-row .button-group button{
+	background-color: #EDD9A3;
+}
+
+.ratings-row .button-group button{
+	background-color: #AD9BAA;
+}
+
+.movie-title{
+	height: 60px;
+	width: 263px;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 0 10px 0 10px;
+	background: white;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.movie-wrapper{
+	margin: 15px 0;
+}
+
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
