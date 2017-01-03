@@ -18,13 +18,9 @@ img{
 	max-width: 100%;
 }
 
-.filter-category-header, .filter-button-group{
+.filter-category-header, .genre-row, .filter-button-group{
 	height: 40px;
 	line-height: 40px;
-}
-
-.genre-row{
-	height: 80px;
 }
 
 .genre-row .button-group button{
